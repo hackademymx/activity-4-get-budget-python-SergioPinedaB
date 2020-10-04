@@ -1,3 +1,8 @@
 def getTotalBudget(people):
     pass
-    '''Your amazing code here'''
+
+    cont = 0
+    
+    for person in people:
+        cont += person["budget"]
+        
